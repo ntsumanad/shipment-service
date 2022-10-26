@@ -8,6 +8,7 @@ public class PackageShipment implements IShipment {
 
     @Override
     public boolean deleteShipment() {
+        System.out.println("Deleting an existing shipment");
         return false;
     }
 
