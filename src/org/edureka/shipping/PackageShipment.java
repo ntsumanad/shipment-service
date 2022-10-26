@@ -13,6 +13,7 @@ public class PackageShipment implements IShipment {
 
     @Override
     public boolean getShipment() {
+        System.out.println("Get a shipment");
         return false;
     }
 }
